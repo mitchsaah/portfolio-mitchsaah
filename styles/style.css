@@ -358,3 +358,54 @@ body {
     margin: 0 15px 20px 15px;
     line-height: 1.5;
   }
+
+  /* Sprint Header */
+  .sprint-header {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .sprint-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #4580e6;
+  }
+  
+  .sprint-header p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #aaa;
+  }
+  
+  /* Photo Section */
+  .photo-section {
+    text-align: center;
+  }
+  
+  .photo {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+    margin: auto;
+  }
+  
+  /* Concept Section */
+  .concept-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .concept-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #4580e6;
+  }
+  
+  .concept-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    line-height: 1.8;
+  }
