@@ -429,5 +429,23 @@ body {
   
 .gallery-grid img:hover {
     transform: scale(1.05); 
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9); 
 }
+
+/* Sprint 3 Specific Gallery */
+  .sprint3-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+  }
+  
+  .sprint3-grid img {
+    width: 300px; 
+    height: 600px; 
+    object-fit: cover; 
+    border-radius: 20px; 
+    transition: transform 0.3s ease;
+  }
+  
+  .sprint3-grid img:hover {
+    transform: scale(1.05); /* Subtle zoom effect */
+  }
